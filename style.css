@@ -1,0 +1,112 @@
+
+
+
+body {
+    background-color: #FF9800;
+    color: black;
+  }
+  h1{
+      color:black; 
+
+  }
+  .vertical-container {
+    height: 60px;
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+  }
+  h1.vertical-container {
+    font-size: 275%;
+  }
+
+  .input{
+    width: 60%;
+    /* border: 2px solid black; */
+    margin: 0px auto;
+    text-align: center;
+  }
+  .input input{
+    width: 80%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 3px;
+  }
+  .input button{
+      
+    padding: 12px 15px;
+    font-weight: bold;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 0px 3px 4px gray;
+    cursor: pointer;
+  }
+  .input button:hover{
+    background-color: darkcyan;
+    color: white;
+  }
+
+  .display{
+    width: 50%;
+    /* border: 2px solid black; */
+    margin: 30px auto;
+    /* text-align: center; */
+  }
+  .display li{
+    color: black;
+    /*list-style-type: lower-roman;
+     text-decoration: underline; */
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    border-bottom: 1px solid chocolate;
+    
+    
+
+    
+  }
+.del{
+   float: right;
+    /* margin-left: 5px; */
+    /* padding: 2px 5px; */
+    font-weight: bold;
+    background-color: #FF9800;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 0px 3px 4px gray;
+    cursor: pointer;
+    margin-left: 3px;
+  } 
+  .edit{
+    float: right;
+     /* margin-left: 5px; */
+     /* padding: 2px 5px; */
+     font-weight: bold;
+     background-color: #FF9800;
+     border: none;
+     border-radius: 15px;
+     color: white;
+     box-shadow: 0px 3px 4px gray;
+     cursor: pointer;
+   } 
+   #icon-dlt{
+       color: red;
+     
+} 
+#icon-edit{
+    color:chartreuse;
+  
+} 
+#icon-dlt:hover{
+    color: blueviolet;
+}
+#icon-edit:hover{
+    color: blueviolet;
+}
